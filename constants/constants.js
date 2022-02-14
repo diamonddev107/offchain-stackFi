@@ -4,7 +4,7 @@ const rpcURLs = {
     "binanceTestnet": "wss://speedy-nodes-nyc.moralis.io/0333c1541db7fd868fd97aa8/bsc/testnet/ws"
 }
 
-const diamondAddress = "0x2e96fb96FF50C61980F4AC029E0e52cCeDE39609";
+const diamondAddress = "0xF3E29d0878000137C51ae918530D8ec7673563d9";
 
 const chain = "0x61"
 
@@ -52,7 +52,9 @@ const decimalBasedOnMarketHash = {
 
 const epochLength = 3
 
-const CT_WHITELISTING=259200000
+// const CT_WHITELISTING=259200000
+
+const CT_WHITELISTING=604800000
 
 module.exports = {
     rpcURLs,
